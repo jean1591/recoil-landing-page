@@ -3,17 +3,31 @@ import Link from 'next/link'
 
 export const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 w-full bg-gray-100">
+    <nav className="w-full font-medium text-gray-900">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4">
         {/* LOGO AND APP NAME */}
-        <div className="flex items-center justify-start gap-2">
-          <Image src="/icon.png" alt="logo" width={60} height={60} />
-          <p className="text-2xl font-bold text-gray-900">Recoil</p>
+        <div className="flex h-12 items-center justify-start gap-4 rounded-xl bg-gray-100 px-6">
+          <Image
+            src="/icon.png"
+            alt="logo"
+            width={30}
+            height={30}
+            className="m-0 p-0"
+          />
+          <Link href="/" className=" ">
+            Recoil
+          </Link>
         </div>
 
-        <div className="flex items-center justify-end gap-4">
+        <div className="flex h-12 items-center justify-end gap-4 rounded-xl bg-gray-100 px-6">
           <Link href="#features">Features</Link>
-          <p>Community</p>
+          <Link href="#why-recoil">Why Recoil?</Link>
+          <Link
+            className="rounded-lg bg-gray-900 px-4 py-2 text-gray-100"
+            href="#download"
+          >
+            Download
+          </Link>
         </div>
       </div>
     </nav>
