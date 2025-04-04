@@ -8,12 +8,13 @@ export const Hero = () => {
         <div className="flex items-center justify-between gap-12">
           <div className="flex flex-col gap-8">
             <h1 className="text-balance text-5xl font-bold leading-tight tracking-tight text-gray-100">
-              Shoot Smarter. Improve Faster. Track Like a Pro.
+              Turn Every Range Day Into Progress
             </h1>
 
-            <h2 className="text-xl leading-tight tracking-tight text-gray-400">
-              Recoil helps you shoot smarter, improve faster, and track like a
-              pro by turning every session into actionable insights.
+            <h2 className="text-lg leading-tight tracking-tight text-gray-400">
+              Understand your performance over time so you can spot patterns,
+              fix mistakes, and become a more accurate, consistent shooter with
+              every session.
             </h2>
 
             <div className="flex gap-4">

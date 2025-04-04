@@ -8,9 +8,7 @@ export const Features = () => {
       <Container>
         <div className="flex items-center justify-between gap-4">
           <div className="flex flex-col gap-8">
-            <h2 className="text-3xl font-bold">
-              Your shots tell a story. Are you listening?
-            </h2>
+            <h2 className="text-3xl font-bold">Every Shot Counts</h2>
 
             <ul className="flex flex-col gap-4">
               <li className="flex items-center justify-start gap-2">
