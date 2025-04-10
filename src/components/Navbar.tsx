@@ -21,7 +21,7 @@ export const Navbar = () => {
 
         <div className="flex h-12 items-center justify-end gap-4 rounded-xl bg-gray-100 px-6">
           <Link href="#features">Features</Link>
-          <Link href="#why-recoil">Why Recoil?</Link>
+          {/* <Link href="#why-recoil">Why Recoil?</Link> */}
           <Link
             className="rounded-lg bg-gray-900 px-4 py-2 text-gray-100"
             href="#download"

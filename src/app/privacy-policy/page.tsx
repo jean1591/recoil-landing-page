@@ -1,22 +1,11 @@
-import { bgGradient, textGradient } from '@/design/constants'
-
-import { classNames } from '@/utils/classNames'
-
-const companyName = 'YourApp'
-const companyEmail = 'hello@your-app.com'
-const companyUrl = 'https://your-app.com'
+const companyName = 'Recoil'
+const companyEmail = 'recoil@mailo.com'
+const companyUrl = 'https://recoil-app.com'
 
 export default function PrivacyPolicy() {
   return (
-    <div>
-      <p
-        className={classNames(
-          bgGradient,
-          textGradient,
-          'mt-16 text-4xl font-extrabold md:text-5xl'
-        )}
-      >
-        {' '}
+    <div className="mx-auto max-w-4xl">
+      <p className="mt-16 text-4xl font-extrabold md:text-5xl">
         Privacy policy
       </p>
 
@@ -25,17 +14,17 @@ export default function PrivacyPolicy() {
           This Privacy Policy describes the policies of {companyName}, 1, Not
           your business, Paris 75001, France, email: {companyEmail}, phone:
           0123456789 on the collection, use and disclosure of your information
-          that we collect when you use our website ({companyUrl}). (the
-          “Service”). By accessing or using the Service, you are consenting to
-          the collection, use and disclosure of your information in accordance
-          with this Privacy Policy. If you do not consent to the same, please do
-          not access or use the Service. We may modify this Privacy Policy at
-          any time without any prior notice to you and will post the revised
-          Privacy Policy on the Service. The revised Policy will be effective
-          180 days from when the revised Policy is posted in the Service and
-          your continued access or use of the Service after such time will
-          constitute your acceptance of the revised Privacy Policy. We therefore
-          recommend that you periodically review this page.
+          that we collect when you use our website ({companyUrl}) and mobile
+          application. (the “Service”). By accessing or using the Service, you
+          are consenting to the collection, use and disclosure of your
+          information in accordance with this Privacy Policy. If you do not
+          consent to the same, please do not access or use the Service. We may
+          modify this Privacy Policy at any time without any prior notice to you
+          and will post the revised Privacy Policy on the Service. The revised
+          Policy will be effective 180 days from when the revised Policy is
+          posted in the Service and your continued access or use of the Service
+          after such time will constitute your acceptance of the revised Privacy
+          Policy. We therefore recommend that you periodically review this page.
         </p>
 
         <div>
@@ -46,8 +35,7 @@ export default function PrivacyPolicy() {
           </p>
 
           <ul className="list-disc">
-            <li className="ml-8">Username</li>
-            <li className="ml-8">Email</li>
+            <li className="ml-8">A server generated user ID</li>
           </ul>
         </div>
 
@@ -58,7 +46,7 @@ export default function PrivacyPolicy() {
             following purposes:
           </p>
           <ul className="list-disc">
-            <li className="ml-8">Creating user account</li>
+            <li className="ml-8">Creating an anonymous user account</li>
             <li className="ml-8">Access to application services</li>
           </ul>
           <p>
@@ -136,7 +124,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <p>This policy is effective as of 01 November 2024.</p>
+        <p>This policy is effective as of 01 April 2025.</p>
       </div>
     </div>
   )
