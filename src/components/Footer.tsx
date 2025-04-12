@@ -10,7 +10,7 @@ export const Footer = () => {
         >
           <Link
             target="_blank"
-            href="/privacy-policy"
+            href="/privacy"
             className="hover:text-slate-600"
           >
             Privacy Policy
